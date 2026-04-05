@@ -44,6 +44,7 @@ It provides an interactive UI to visualize pricing decisions, product details, a
 
 ##  Project Structure
 
+```
 dynamic-pricing/
 ├── pricing-ui/        # React frontend
 │   ├── public/
@@ -54,8 +55,10 @@ dynamic-pricing/
 │   └── package.json
 ├── src/               # C++ backend logic
 ├── data/
+```
 
 ---
+
 
 ##  How It Works
 
