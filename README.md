@@ -87,12 +87,11 @@ npm start
 
 ###  Dashboard View
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](./pricing-ui/public/screenshots/dashboard.png)
 
 ###  Product Details (Graph View)
 
-![Details](screenshots/details.png)
-
+![Details](./pricing-ui/public/screenshots/details.png)
 ---
 
 ##  Future Improvements
