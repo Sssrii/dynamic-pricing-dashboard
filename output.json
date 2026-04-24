@@ -1,0 +1,82 @@
+[
+  {
+    "product": "Shoes",
+    "trend": "High Demand",
+    "suggested_price": 750,
+    "decision": "Increase Price",
+    "image": "/images/shoes.jpg",
+    "history": [500, 550, 600, 700, 750]
+  },
+  {
+    "product": "Shirt",
+    "trend": "Low Demand",
+    "suggested_price": 400,
+    "decision": "Decrease Price",
+    "image": "/images/shirt.jpg",
+    "history": [600, 550, 500, 450, 400]
+  },
+  {
+    "product": "Watch",
+    "trend": "High Demand",
+    "suggested_price": 1800,
+    "decision": "Increase Price",
+    "image": "/images/watch.jpg",
+    "history": [1200, 1300, 1500, 1700, 1800]
+  },
+  {
+    "product": "Backpack",
+    "trend": "Low Demand",
+    "suggested_price": 900,
+    "decision": "Decrease Price",
+    "image": "/images/bag.jpg",
+    "history": [1200, 1100, 1000, 950, 900]
+  },
+  {
+    "product": "Headphones",
+    "trend": "High Demand",
+    "suggested_price": 2200,
+    "decision": "Increase Price",
+    "image": "/images/headphones.jpg",
+    "history": [1500, 1700, 1900, 2100, 2200]
+  },
+  {
+    "product": "Laptop",
+    "trend": "High Demand",
+    "suggested_price": 60000,
+    "decision": "Increase Price",
+    "image": "/images/laptop.jpg",
+    "history": [50000, 52000, 55000, 58000, 60000]
+  },
+  {
+    "product": "Keyboard",
+    "trend": "Low Demand",
+    "suggested_price": 1200,
+    "decision": "Decrease Price",
+    "image": "/images/keyboard.jpg",
+    "history": [1500, 1400, 1300, 1250, 1200]
+  },
+  {
+    "product": "Mouse",
+    "trend": "Low Demand",
+    "suggested_price": 600,
+    "decision": "Decrease Price",
+    "image": "/images/mouse.jpg",
+    "history": [800, 750, 700, 650, 600]
+  },
+  {
+    "product": "Smartphone",
+    "trend": "High Demand",
+    "suggested_price": 32000,
+    "decision": "Increase Price",
+    "image": "/images/phone.jpg",
+    "history": [25000, 27000, 29000, 31000, 32000]
+  },
+  {
+    "product": "Tablet",
+    "trend": "Low Demand",
+    "suggested_price": 18000,
+    "decision": "Decrease Price",
+    "image": "/images/tablet.jpg",
+    "history": [22000, 21000, 20000, 19000, 18000]
+  }
+]
