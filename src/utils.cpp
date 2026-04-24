@@ -16,7 +16,7 @@ void addSales(Product &p, int units, string date) {
     temp->next = newNode;
 }
 
-vector<int> getSales(Product* p) {
+vector<int> getSales(Product* p) { //to concert LL into vector as Your demandTrend() works on vector, not linked list
     vector<int> sales;
     SalesNode* temp = p->head;
 

@@ -35,31 +35,7 @@ int main() {
     addSales(*productMap[1], 16, "d13");
     addSales(*productMap[1], 18, "d14");
 
-    // vector<int>sales=getSales(productMap[1]);
-    // string trend=demandTrend(sales);
-    // cout<<"Demand Trend: "<<trend<<endl;
-
-    // Product* p=productMap[1];
-    // cout<<"Product:" <<p->name<<endl;
-
-    // float suggested = suggestPrice(productMap[1], trend);
-
-    // string decision = priceDecision(suggested, productMap[1]->current_price);
-
-    // cout << "Suggested Price: " << suggested << endl;
-    // cout << "Decision: " << decision << endl;
-
-    // stack<float>priceHistory;
-    // priceHistory.push(productMap[1]->current_price);
-    // productMap[1]->current_price=suggested;
-
-    // if(!priceHistory.empty()) {
-    //     float prev=priceHistory.top();
-    //     priceHistory.pop();
-
-    //     productMap[1]->current_price=prev;
-    //     cout<<"Undo done. Restored price: "<<prev<<endl;
-    // }
+    
 ofstream file("../data/output.json");
 file << "[\n";
 bool first = true;
@@ -97,7 +73,7 @@ for (auto &pair : productMap) {
 
     first = false;
 
-
+    // console  o/p
 
     cout << "------------------------" << endl;
     cout << "Product: " << p->name << endl;
@@ -130,3 +106,12 @@ for (auto &pair : productMap) {
 
     return 0;
 }
+
+//1. Create products
+// 2. Add sales data
+// 3. Convert sales to vector
+// 4. Detect demand trend
+// 5. Calculate new price
+// 6. Decide increase/decrease
+// 7. Save result in JSON
+// 8. Display in React
